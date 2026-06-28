@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLOR-CHID · premium flowers</title>
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo"><i class="fas fa-seedling" style="color: #b8a07c;"></i> FLOR-CHID</div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Flowers</a></li>
+        <li><a href="#">Bouquets</a></li>
+        <li><a href="#">Occasions</a></li>
+        <li><a href="#">Gifts</a></li>
+        <li><a href="#">Best Sellers</a></li>
+        <li><a href="#">Offers</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#"><i class="fas fa-shopping-bag"></i> <span class="cart-badge">0</span></a></li>
+        <li><a href="#"><i class="fas fa-user"></i></a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Fresh Flowers <br /> Delivered with Love</h1>
+      <p class="hero-sub">"Every bloom tells a story. Celebrate every occasion with premium flowers handpicked for you."</p>
+      <div class="hero-buttons">
+        <button class="btn primary">Shop Flowers</button>
+        <button class="btn outline">Shop Bouquets</button>
+        <button class="btn outline"><i class="fas fa-truck"></i> Same-Day Delivery</button>
+      </div>
+    </div>
+    <div class="floating-petals">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- Categories / Flower Grid (sample) -->
+  <section class="section" id="flowers">
+    <div class="container">
+      <h2 class="section-title">Our Blooms</h2>
+      <div class="flower-grid" id="flowerGrid">
+        <!-- dynamically rendered from script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Bouquet Collection -->
+  <section class="section bg-cream" id="bouquets">
+    <div class="container">
+      <h2 class="section-title">Premium Bouquets</h2>
+      <div class="bouquet-grid" id="bouquetGrid"></div>
+    </div>
+  </section>
+
+  <!-- Occasions -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">For Every Occasion</h2>
+      <div class="occasion-chips" id="occasionChips"></div>
+    </div>
+  </section>
+
+  <!-- Personal Message Preview -->
+  <section class="section bg-cream">
+    <div class="container" style="max-width:700px; margin:0 auto;">
+      <h2 class="section-title">Add a Personal Note</h2>
+      <div class="message-card">
+        <textarea id="msgInput" maxlength="300" placeholder="Write your heartfelt message..." rows="3"></textarea>
+        <div class="msg-tools">
+          <span><span id="charCount">0</span>/300</span>
+          <div>
+            <label><input type="checkbox" /> Greeting Card</label>
+            <label><input type="checkbox" /> Anonymous</label>
+            <label><input type="checkbox" /> Emoji <i class="far fa-smile"></i></label>
+          </div>
+        </div>
+        <div class="preview-card" id="previewCard">💌 Your note will appear here</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Builder Mini -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Custom Bouquet Builder</h2>
+      <div class="builder-row">
+        <div><i class="fas fa-seedling"></i> Flowers</div>
+        <div><i class="fas fa-palette"></i> Colors</div>
+        <div><i class="fas fa-gift"></i> Wrap</div>
+        <div><i class="fas fa-ribbon"></i> Ribbon</div>
+        <div><i class="fas fa-flask"></i> Vase</div>
+        <div><i class="fas fa-candy-cane"></i> Chocolates</div>
+        <div><i class="fas fa-bear"></i> Teddy</div>
+        <div><i class="fas fa-spray-can"></i> Fragrance</div>
+      </div>
+      <div class="builder-total">Live price: <strong id="builderPrice">₹1,299</strong></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div><h4>FLOR-CHID</h4><p>Premium flowers, delivered with care.</p></div>
+      <div><h4>Support</h4><a href="#">FAQ</a><a href="#">Delivery</a><a href="#">Contact</a></div>
+      <div><h4>Policies</h4><a href="#">Privacy</a><a href="#">Refund</a><a href="#">Terms</a></div>
+      <div><h4>Newsletter</h4><input placeholder="Your email" /><button>→</button></div>
+    </div>
+    <div class="footer-bottom">© 2026 FLOR-CHID · made with petals</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
