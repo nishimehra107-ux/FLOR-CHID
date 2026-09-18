@@ -8,7 +8,7 @@
 
 FLOR-CHID is a complete front-end e-commerce website for a premium florist brand. It features a stunning visual design with floating petals animation, comprehensive product catalog, bouquet collections, and an interactive shopping experience. The website is built using vanilla HTML, CSS, and JavaScript with a focus on elegance, user experience, and responsiveness.
 
-**Live Demo:** [View Demo](#) *(Add your live demo link here)*
+
 
 ---
 
@@ -137,19 +137,6 @@ Premium arrangements including:
 
 ---
 
-## 🎨 Color Palette
-
-| Color | Name | Hex Code |
-|-------|------|----------|
-| ![#f7c5cc](https://via.placeholder.com/20/f7c5cc/000000?text=+) | Soft Pink | `#f7c5cc` |
-| ![#d9c8e0](https://via.placeholder.com/20/d9c8e0/000000?text=+) | Lavender | `#d9c8e0` |
-| ![#b7c9b2](https://via.placeholder.com/20/b7c9b2/000000?text=+) | Sage Green | `#b7c9b2` |
-| ![#2a5c4a](https://via.placeholder.com/20/2a5c4a/000000?text=+) | Emerald Green | `#2a5c4a` |
-| ![#c9a96e](https://via.placeholder.com/20/c9a96e/000000?text=+) | Gold | `#c9a96e` |
-| ![#faf3ea](https://via.placeholder.com/20/faf3ea/000000?text=+) | Cream | `#faf3ea` |
-
----
-
 ## 📱 Responsive Design
 
 The website is fully responsive across all devices:
@@ -224,18 +211,6 @@ All images used are royalty-free and sourced from:
 
 ---
 
-## 🚀 Future Enhancements
-
-- [ ] Backend integration (Node.js + MongoDB)
-- [ ] User authentication (Google, Email, OTP)
-- [ ] Payment gateway (Stripe, Razorpay, PayPal)
-- [ ] Order tracking system
-- [ ] Admin dashboard
-- [ ] PWA support
-- [ ] Dark mode
-- [ ] AI-powered recommendations
-- [ ] Voice search
-- [ ] Real-time chat support
 
 ---
 
@@ -249,11 +224,6 @@ Contributions are welcome! Here's how:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
