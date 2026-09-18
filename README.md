@@ -137,32 +137,6 @@ Premium arrangements including:
 
 ---
 
-## 📱 Responsive Design
-
-The website is fully responsive across all devices:
-
-| Device | Breakpoint | Features |
-|--------|------------|----------|
-| Desktop | 900px+ | Full navigation, multi-column grids |
-| Tablet | 600-900px | Collapsed nav, 2-column grid |
-| Mobile | <600px | Hamburger menu, single-column layout |
-
----
-
-## 🔧 Customization Guide
-
-### Adding New Flowers
-Edit the `flowers` array in `script.js`:
-```javascript
-const flowers = [
-  {
-    name: 'Your Flower',
-    sci: 'Scientific name',
-    price: '₹XX/stem',
-    img: 'https://your-image-url.jpg'
-  }
-];
-```
 
 ### Adding New Bouquets
 Edit the `bouquets` array:
@@ -211,18 +185,6 @@ All images used are royalty-free and sourced from:
 
 ---
 
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 ---
